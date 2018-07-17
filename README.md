@@ -5,12 +5,12 @@ ESLint React 代码规范配置。
 ## 安装
 
 ```shell
-npm install --save-dev eslint eslint-plugin-import eslint-plugin-node eslint-plugin-promise eslint-plugin-standard eslint-plugin-react @uedlinker/eslint-config-base
+npm install --save-dev eslint eslint-plugin-react @uedlinker/eslint-config-base @uedlinker/eslint-config-react
 ```
 
 ## 使用
 
-在项目中，创建 `.eslintrc` 文件，并设置 `extends` 属性。
+在 ESLint 的配置中，增加 `extends` 选项：
 
 ```json
 {
