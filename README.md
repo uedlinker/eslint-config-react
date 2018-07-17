@@ -5,7 +5,7 @@ ESLint React 代码规范配置。
 ## 安装
 
 ```shell
-npm install --save-dev eslint eslint-plugin-react @uedlinker/eslint-config-base @uedlinker/eslint-config-react
+npm install --save-dev eslint eslint-plugin-react babel-eslint @uedlinker/eslint-config-base @uedlinker/eslint-config-react
 ```
 
 ## 使用

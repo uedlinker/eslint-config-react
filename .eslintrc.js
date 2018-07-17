@@ -1,6 +1,8 @@
 module.exports = {
   extends: '@uedlinker/eslint-config-base',
 
+  parser: 'babel-eslint',
+
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
@@ -128,10 +130,16 @@ module.exports = {
     // 组件属性排序
     'react/sort-comp': ['error', {
       order: [
+        'type-annotations',
         'static-methods',
+        'state',
+        'instance-variables',
+        'getters',
+        'setters',
         'lifecycle',
         '/^get.*Data$/',
         '/^handle.+$/',
+        'instance-methods',
         'everything-else',
         '/^render.+$/',
         'render',
@@ -147,7 +155,6 @@ module.exports = {
           'defaultProps',
           'constructor',
           'getDefaultProps',
-          'state',
           'getInitialState',
           'getChildContext',
           'getDerivedStateFromProps',
