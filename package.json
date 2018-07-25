@@ -1,6 +1,6 @@
 {
   "name": "@uedlinker/eslint-config-react",
-  "version": "0.3.1",
+  "version": "1.0.0",
   "description": "React 代码规范",
   "main": "index.js",
   "scripts": {
@@ -17,15 +17,15 @@
   },
   "homepage": "https://github.com/uedlinker/eslint-config-react#readme",
   "devDependencies": {
-    "@uedlinker/eslint-config-base": "^0.3.0",
+    "@uedlinker/eslint-config-base": "^1.0.0",
     "babel-eslint": "^8.2.6",
-    "eslint": "^5.1.0",
+    "eslint": "^4.19.0",
     "eslint-plugin-react": "^7.10.0"
   },
   "peerDependencies": {
-    "@uedlinker/eslint-config-base": "^0.3.0",
+    "@uedlinker/eslint-config-base": "^1.0.0",
     "babel-eslint": "^8.2.6",
-    "eslint": "^5.1.0",
+    "eslint": "^4.19.0 || ^5.1.0",
     "eslint-plugin-react": "^7.10.0"
   }
 }
