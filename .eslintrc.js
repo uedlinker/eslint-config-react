@@ -1,5 +1,8 @@
 module.exports = {
-  extends: '@uedlinker/eslint-config-base',
+  extends: [
+    '@uedlinker/eslint-config-base',
+    'plugin:flowtype/recommended',
+  ],
 
   parser: 'babel-eslint',
 
@@ -13,7 +16,10 @@ module.exports = {
     browser: true,
   },
 
-  plugins: ['react'],
+  plugins: [
+    'react',
+    'flowtype',
+  ],
 
   rules: {
     // 在 JSX 中，属性值使用双引号
